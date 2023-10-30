@@ -19,7 +19,7 @@ footer {
     font-weight: 600;
 }
 
-content {
+main {
     display: block;
     width: 520px;
     margin: 0 auto;
@@ -42,16 +42,13 @@ h2 {
 p {
     padding: 0 0 10px 0;
 }
-content span.styled-text {
+main span.styled-text {
     display: block;
     line-height: 30px;
     font-size: 1em;
 }
 div.styled-text-container span.styled-text:first-child {
     font-style: italic;
-}
-div.styled-text-container span.styled-text:nth-child(2) {
-    font-style: bold;
 }
 
 .square {
@@ -99,7 +96,7 @@ table {
     height: 100px;
     border: 1px solid white; 
  }
- td {
+ td {   
     border: 1px solid white; 
     text-align: center;
     vertical-align: bottom;
